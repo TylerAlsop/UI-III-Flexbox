@@ -64,3 +64,170 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+
+nav {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+a {
+	text-decoration: none;
+	color: lightgray;
+}
+
+header {
+	display: flex;
+	justify-content: space-evenly;
+	padding: 50px;
+	width: 100%;
+	align-items: center;
+}
+
+.name-and-button {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 50%;
+	text-align: center;
+}
+
+h1 {
+	display: flex;
+	flex-direction: column;
+	padding-bottom: 10px;
+	font-size: 70px;
+
+}
+
+.get-started-button {
+	border: solid 1px;
+	width: 150px;
+	margin-left: 50 px;
+	text-align: center;
+	font-size: 15px;
+}
+
+.main-body {
+	border-top: solid gray 2px;
+	border-bottom: solid gray 2px;
+}
+
+.features-about {
+	display: flex;
+	justify-content: space-evenly;
+	padding: 15px;
+}
+
+.features {
+	padding: 30px 15px;
+}
+
+.about {
+	padding: 30px 15px;
+}
+
+.middle-img {
+	display: flex;
+	justify-content: center;
+}
+
+.services-product-vision {
+	display: flex;
+	padding: 15px;
+}
+
+.services {
+	padding: 30px 15px;
+}
+
+.product {
+	padding: 30px 15px;
+}
+
+.vision {
+	padding: 30px 15px;	
+}
+
+footer {
+	padding: 30px;
+}
+
+.contact {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	height: 200px;
+	width: 200px;
+
+}
+
+.contact p {
+	padding: 10px;
+}
+
+address {
+	padding: 0px 10px 10px 0px;
+}
+
+.copyright {
+	text-align: center;
+	padding: 30px;
+}
+
+button {
+	border: solid 2px;
+}
+
+/* Services Page Specific */
+
+.services-header {
+	display: flex;
+	flex-direction: column;
+}
+.services-header-img {
+	display: flex;
+	justify-content: center;
+}
+
+.services-main-body {
+	border-top: solid gray 2px;
+	border-bottom: solid gray 2px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly
+	
+}
+
+.service-item {
+	display: flex;
+	flex-direction: column;
+	border: solid 1px;
+	padding: 30px;
+	margin: 30px;
+}
+
+.two-service-items {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+
+.learn-more-button {
+	width: 150px;
+	height: 35px;
+	border: solid 1px;
+	border-radius: 5px;
+	margin: 15px 0px 0px 0px;
+}
+
+.service-bottom {
+	display: flex;
+}
+
+.service-facts {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	padding: 30px;
+}
